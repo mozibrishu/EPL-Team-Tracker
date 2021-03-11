@@ -17,8 +17,9 @@ const Home = () => {
       <div className="banner">
         <h1 className="title">Follow Team</h1>
       </div>
+
       <div className="teams-container">
-        <div className="container-fluid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 team-container">
+        <div className="d-flex row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 team-container">
           {teams.map((team) => (
             <TeamCard team={team}></TeamCard>
           ))}

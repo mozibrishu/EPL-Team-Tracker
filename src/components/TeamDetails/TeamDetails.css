@@ -16,3 +16,25 @@
 .gender-pic{
     width: 100%;
 }
+
+.team-info{
+    margin: 2em;
+    padding: 1em;
+    background-color: teal;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+}
+
+.detail-description{
+    text-align: justify;
+    margin: 1em;
+}
+
+.details-container{
+    width: 90%;
+    background-color: #F8F7F5;
+    padding-top: 1em;
+    margin: auto;
+    border-radius: 25px;
+}

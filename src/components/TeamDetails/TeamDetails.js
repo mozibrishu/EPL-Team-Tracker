@@ -45,7 +45,7 @@ const TeamDetails = () => {
         </div>
       </div>
 
-      <div className="details-card row row-cols-1  row-cols-md-2">
+      {/* <div className="details-card row row-cols-1  row-cols-md-2">
         <div className="details">
           <h2>{strTeam}</h2>
           <p>Founded: {intFormedYear}</p>
@@ -57,11 +57,29 @@ const TeamDetails = () => {
         <div className="team-image">
           <img className="gender-pic" src={imageSrc} alt="" />
         </div>
+      </div> */}
+
+      <div className="details-container">
+      <div className="d-flex row align-items-center team-info">
+        <div className="col-12 col-md-6 text-center">
+          <h2>{strTeam}</h2>
+          <p>Founded: {intFormedYear}</p>
+          <p>Country: {strCountry}</p>
+          <p>Sport Type: {strSport}</p>
+          <p>Gender: {strGender}</p>
+        </div>
+
+        <div className="col-12 col-md-6 text-center">
+          <img className="gender-pic" src={imageSrc} alt="" />
+        </div>
       </div>
 
       <div className="detail-description">
         <p>{strDescriptionEN}</p>
+        <p>{strDescriptionEN}</p>
       </div>
+      </div>
+
     </div>
   );
 };
