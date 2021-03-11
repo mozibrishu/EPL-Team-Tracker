@@ -1,0 +1,21 @@
+.banner {
+    background-image: url("../../images/banner.jpg");
+    height: 300px;
+  }
+  
+  
+  .title{
+    vertical-align: middle;
+    line-height: 300px;
+  }
+  
+.team-container{
+    column-gap: 10px;
+    box-sizing: border-box;
+}
+
+.teams-container{
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+}

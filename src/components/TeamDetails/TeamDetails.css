@@ -1,0 +1,10 @@
+
+.teamBadge{
+    height: 200px;
+    vertical-align: middle;
+    line-height: 300px;
+}
+
+.background-opacity{
+    opacity: 0.5;
+}
