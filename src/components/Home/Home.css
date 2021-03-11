@@ -8,11 +8,12 @@
   }
   
   .title{
+    font-family: 'Allura', cursive;
     vertical-align: middle;
     text-align: center;
     line-height: 300px;
-    color: white;
-    font-size: 4em;
+    color: rgb(231, 233, 148);
+    font-size: 4.5em;
     font-weight: 700;
   }
   

@@ -5,7 +5,7 @@ import maleImage from "../../images/male.png";
 import femaleImage from "../../images/female.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faCheckCircle,faFlag,faFutbol,faMars } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons'
 
 const TeamDetails = () => {
   const [team, setTeam] = useState({});
