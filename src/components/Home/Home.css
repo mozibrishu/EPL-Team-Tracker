@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../images/banner1.jpg");
+    background-image: url("../../images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -8,14 +8,15 @@
     
   }
   
-  
   .title{
     vertical-align: middle;
     text-align: center;
     line-height: 300px;
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
   }
   
-
 .teams-container{
  width: 90%;
  margin: auto;
