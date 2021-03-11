@@ -8,3 +8,11 @@
 .background-opacity{
     opacity: 0.5;
 }
+
+.details-card{
+    display: flex;
+}
+
+.gender-pic{
+    width: 100%;
+}
