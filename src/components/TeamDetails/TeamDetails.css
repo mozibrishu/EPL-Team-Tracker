@@ -8,12 +8,6 @@
     line-height: 300px;
 }
 
-.background-opacity{
-    opacity: 0.5;
-}
-
-
-
 .gender-pic{
     width: 100%;
 }
@@ -38,4 +32,23 @@
     padding-top: 1em;
     margin: auto;
     border-radius: 25px;
+}
+.social{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.facebook{
+    color: #3b5998;
+    margin: 10px;
+}
+
+.twitter{
+    color: #55acee;
+    margin: 10px;
+}
+
+.youtube{
+    color: #e52d27;
+    margin: 10px;
 }
