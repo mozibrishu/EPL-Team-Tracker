@@ -3,8 +3,13 @@
 }
 
 .team-card{
-    width: 90%;
     margin:10px auto;
+
+
+}
+
+.team-cards{
+    width: 95%;
     padding: 10px;
     border-radius: 10px;
     background-color: #F8F7F5;

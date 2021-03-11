@@ -37,7 +37,7 @@ const TeamDetails = () => {
   }
 
   return (
-    <div>
+    <div className="teamDetails-container">
 
       <div className="banner background-opacity">
         <div className="title">
