@@ -24,6 +24,7 @@ const TeamDetails = () => {
     strTeam,
     strSport,
     strDescriptionEN,
+    strTeamBanner,
     strFacebook,
     strTwitter,
     strYoutube,
@@ -37,15 +38,20 @@ const TeamDetails = () => {
     imageSrc = femaleImage;
   }
 
+  const bannerStyle = {
+    backgroundImage: `url("${strTeamBanner}")`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+
+  }
   return (
     <div className="teamDetails-container">
 
-      <div className="banner background-opacity">
+      <div style={bannerStyle}>
         <div className="title">
           <img className="teamBadge" src={strTeamBadge} alt="" />
         </div>
       </div>
-
       <div className="details-container">
         <div className="d-flex row align-items-center team-info">
           <div className="col-12 col-md-6 text-center">
