@@ -4,7 +4,8 @@ import "./TeamDetails.css";
 import maleImage from "../../images/male.png";
 import femaleImage from "../../images/female.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faCheckCircle,faFlag,faFutbol,faMars } from '@fortawesome/free-solid-svg-icons'
 
 const TeamDetails = () => {
   const [team, setTeam] = useState({});
@@ -31,6 +32,7 @@ const TeamDetails = () => {
     intFormedYear,
   } = team;
 
+  // Conditional Formatting
   let imageSrc = "";
   if (strGender === "Male") {
     imageSrc = maleImage;
@@ -42,7 +44,6 @@ const TeamDetails = () => {
     backgroundImage: `url("${strTeamBanner}")`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-
   }
   return (
     <div className="teamDetails-container">
@@ -52,14 +53,15 @@ const TeamDetails = () => {
           <img className="teamBadge" src={strTeamBadge} alt="" />
         </div>
       </div>
+
       <div className="details-container">
         <div className="d-flex row align-items-center team-info">
-          <div className="col-12 col-md-6 text-center">
+          <div className="col-12 col-md-6 text-left pl-5">
             <h2>{strTeam}</h2>
-            <p>Founded: {intFormedYear}</p>
-            <p>Country: {strCountry}</p>
-            <p>Sport Type: {strSport}</p>
-            <p>Gender: {strGender}</p>
+            <p><FontAwesomeIcon icon={faCheckCircle} /> Founded: {intFormedYear}</p>
+            <p><FontAwesomeIcon icon={faFlag} /> Country: {strCountry}</p>
+            <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</p>
+            <p><FontAwesomeIcon icon={faMars} /> Gender: {strGender}</p>
           </div>
 
           <div className="col-12 col-md-6 text-center">
@@ -70,18 +72,14 @@ const TeamDetails = () => {
         <div className="detail-description">
           <p>{strDescriptionEN}</p>
         </div>
-        
-      <div className="social">
-        <a href={`https://${strFacebook}`} target='blank'><FontAwesomeIcon icon={faFacebook} className="facebook" /></a>
-        <a href={`https://${strTwitter}`} target='blank'><FontAwesomeIcon icon={faTwitter}  className="twitter"/></a>
-        <a href={`https://${strYoutube}`} target='blank'><FontAwesomeIcon icon={faYoutube} className="youtube"/></a>
-      
-      
-      
-      </div>
+
+        <div className="social">
+          <a href={`https://${strFacebook}`} target='blank'><FontAwesomeIcon icon={faFacebook} className="facebook" /></a>
+          <a href={`https://${strTwitter}`} target='blank'><FontAwesomeIcon icon={faTwitter} className="twitter" /></a>
+          <a href={`https://${strYoutube}`} target='blank'><FontAwesomeIcon icon={faYoutube} className="youtube" /></a>
+        </div>
 
       </div>
-
     </div>
   );
 };

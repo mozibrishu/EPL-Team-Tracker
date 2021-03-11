@@ -1,1 +1,16 @@
+.nav-bar{
+    text-align: center;
+    background-color: rgb(139, 214, 214);
+}
 
+.main-title{
+    font-size: x-large;
+    font-weight: 700;
+    color: #FA804C;
+}
+.logo{
+    width: 2em;
+}
+Link{
+    text-decoration: none;
+}

@@ -2,16 +2,22 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import TeamDetails from './components/TeamDetails/TeamDetails';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import logo from './images/logo.png'
 
 function App() {
   return (
     <div className="App">
       <Router>
+      <div className="nav-bar">
+        <Link to='/' style={{ textDecoration: 'none' }}><img className="logo" src={logo} alt="" srcset=""/> <span className="main-title">English Premier League</span></Link>
+        </div>
+        
         <Switch>
           <Route path="/home">
             <Home></Home>

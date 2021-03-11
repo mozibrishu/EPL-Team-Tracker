@@ -2,13 +2,11 @@
     width: 80%;
 }
 
-.team-card{
+.team-card-container{
     margin:10px auto;
-
-
 }
 
-.team-cards{
+.team-card{
     width: 95%;
     padding: 10px;
     border-radius: 10px;

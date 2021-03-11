@@ -5,7 +5,6 @@
     height: 300px;
     width: 100%;
     background-color: teal;
-    
   }
   
   .title{
@@ -20,4 +19,5 @@
 .teams-container{
  width: 90%;
  margin: auto;
+ margin-bottom: 20px;
 }
