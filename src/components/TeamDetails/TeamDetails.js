@@ -69,8 +69,8 @@ const TeamDetails = () => {
 
         <div className="detail-description">
           <p>{strDescriptionEN}</p>
-          <p>{strDescriptionEN}</p>
         </div>
+        
       <div className="social">
         <a href={`https://${strFacebook}`} target='blank'><FontAwesomeIcon icon={faFacebook} className="facebook" /></a>
         <a href={`https://${strTwitter}`} target='blank'><FontAwesomeIcon icon={faTwitter}  className="twitter"/></a>

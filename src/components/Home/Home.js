@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     const url =
-      "https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League";
+      "https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?s=Soccer&c=England";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTeams(data.teams));
