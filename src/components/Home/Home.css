@@ -2,6 +2,7 @@
     background-image: url("../../images/banner.jpg");
     height: 300px;
     width: 100%;
+    background-color: teal;
   }
   
   
@@ -16,5 +17,6 @@
 }
 
 .teams-container{
- 
+ width: 90%;
+ margin: auto;
 }
