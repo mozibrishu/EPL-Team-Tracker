@@ -41,7 +41,7 @@ const TeamDetails = () => {
   }
 
   const bannerStyle = {
-    backgroundImage: `url("${strTeamBanner}")`,
+    backgroundImage: `linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("${strTeamBanner}")`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
   }
